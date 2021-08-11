@@ -1,0 +1,45 @@
+body {
+    background: #ff6600;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh
+}
+
+main {
+    background: #ffabab;
+    border-radius: 5px;
+    width: 375px;
+    text-align: center;
+}
+
+.top {
+    height: 120px;
+    border-radius: 5px;
+    color: #ff6600;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    height: 115px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 3rem;
+}
+
+.bottom {
+    height: 20px;
+    border-radius: 5px;
+}
+
+.hello {
+    font-size: 4.5rem;
+    line-height: 1;
+}
+
+.my-name-is {
+    font-size: 2rem;
+}
