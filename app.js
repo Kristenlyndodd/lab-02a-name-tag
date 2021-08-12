@@ -1,11 +1,24 @@
+const submitBtn = document.getElementById('submit-btn');
+const inputField = document.getElementById('input-field');
+const middleSection = document.getElementById('middle-section');
+const colorField = document.getElementById('color-field');
+const topSection = document.getElementById('top-section');
+const bottomSection = document.getElementById('bottom-section');
+const pronounField = document.getElementById('pronoun-field');
+const pronounBtn = document.getElementById('pgp');
+const pronouns = document.getElementById('pronouns');
 
 
-// Change name text when clicking change name button
 
-// Change pronouns text when clicking the change pronouns button
+// name button 
+submitBtn.addEventListener('click', ()=>{
+    middleSection.textContent = inputField.value;
+    topSection.style.backgroundColor = colorField.value;
+    bottomSection.style.backgroundColor = colorField.value;
 
-// Change background color of tag when button is clicked
+});
 
-// Access to text input 
-
-//
+// pronoun button
+pronounBtn.addEventListener('click', ()=>{
+    pronouns.textContent = pronounField.value;
+});
